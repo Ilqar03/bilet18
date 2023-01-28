@@ -1,0 +1,50 @@
+.great_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    Form{
+        .great_field{
+            width: 500px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .great_info{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .price_button{
+        button{
+            width: 120px;
+                height: 30px;
+                background-color: white;
+                border-radius: 10px;
+        }
+margin-bottom: 30px;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .great_card{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            button{
+                cursor: pointer;
+                width: 120px;
+                height: 30px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            
+        }
+    }
+}

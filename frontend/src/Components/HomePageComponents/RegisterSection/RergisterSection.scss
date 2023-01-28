@@ -1,0 +1,120 @@
+.register_section {
+    margin-top: -35px;
+    width: 100%;
+    min-height: 80vh;
+    background-image: url("../../../Imgs/registerBackground.jpg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .register {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .register_info {
+            width: 50%;
+
+            .register_info_element {
+                width: 90%;
+
+                p {
+                    font-size: 20px;
+                    color: white;
+                }
+
+                .started {
+                    color: rgb(119, 119, 119);
+                    font-size: 40px;
+                    font-weight: 900;
+                }
+
+                .lake {
+                    color: #698cf0;
+                    font-size: 40px;
+                    font-weight: 900;
+                }
+            }
+
+            .explore_button {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                button {
+                    cursor: pointer;
+                    color: white;
+                    background-color: #698cf0;
+                    width: 140px;
+                    height: 50px;
+                    border: none;
+
+                    &:hover {
+                        background-color: #1c1c1c;
+                    }
+                }
+
+            }
+        }
+
+        .register_now {
+            width: 50%;
+
+            .register_form {
+                width: 500px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: white;
+                border-radius: 10px;
+                .now{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                    h3{
+                        font-size: 30px;
+                    }
+                }
+
+                .register_formik_1 {
+                    .register_formik {
+
+                        Form {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+
+                            .field {
+                                width: 450px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+                .info_button{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    button{
+                        cursor: pointer;
+                        border: none;
+                        width: 140px;
+                        height: 40px;
+                        background-color: #698cf0;
+                        &:hover{
+                            background-color: #1c1c1c;
+                            color: white;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
